@@ -1,0 +1,12 @@
+project:
+  name: THIP
+  version: 1.0
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  reports: reports
+
+dataset:
+  filename: ai_jobs.csv

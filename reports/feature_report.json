@@ -1,0 +1,18 @@
+{
+    "rows": 50000,
+    "columns": 26,
+    "engineered_features": [
+        "salary_midpoint",
+        "salary_range",
+        "high_paying_job",
+        "salary_band",
+        "experience_bucket",
+        "remote_category",
+        "is_remote",
+        "company_size_rank",
+        "company_category",
+        "job_market_phase",
+        "years_since_posted",
+        "dataset_version"
+    ]
+}

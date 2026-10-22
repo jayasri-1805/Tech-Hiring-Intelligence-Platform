@@ -1,0 +1,11 @@
+[project]
+name="thip"
+version="1.0.0"
+description="Tech Hiring Intelligence Platform"
+requires-python=">=3.12"
+
+[tool.black]
+line-length=88
+
+[tool.isort]
+profile="black"

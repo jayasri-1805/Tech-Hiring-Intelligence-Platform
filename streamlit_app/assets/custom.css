@@ -1,0 +1,282 @@
+/* =========================================
+   THIP — Hiring Intelligence
+   Clean enterprise dashboard styling
+   ========================================= */
+
+:root {
+    --thip-ink: #172b4d;
+    --thip-muted: #52647a;
+    --thip-subtle: #64748b;
+    --thip-border: #dbe3ed;
+    --thip-bg: #f4f6fa;
+    --thip-white: #ffffff;
+    --thip-blue: #4568a8;
+    --thip-teal: #25877f;
+}
+
+/* Base layout */
+html,
+body,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background-color: var(--thip-bg) !important;
+    color: var(--thip-ink) !important;
+    font-family: "Segoe UI", Arial, sans-serif !important;
+}
+
+[data-testid="stMain"] .block-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 2rem clamp(1rem, 2.5vw, 2.5rem) 3rem !important;
+    box-sizing: border-box !important;
+}
+
+/* All normal text */
+[data-testid="stMarkdownContainer"],
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li,
+[data-testid="stCaptionContainer"],
+[data-testid="stWidgetLabel"],
+[data-testid="stWidgetLabel"] p,
+.stMarkdown,
+.stText,
+.stCaption {
+    color: var(--thip-muted) !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3 {
+    color: var(--thip-ink) !important;
+    opacity: 1 !important;
+}
+
+.page-title {
+    color: var(--thip-ink) !important;
+    font-size: clamp(26px, 3vw, 36px) !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    letter-spacing: -0.7px !important;
+}
+
+.eyebrow {
+    color: var(--thip-blue) !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1.5px !important;
+}
+
+.page-subtitle,
+.section-caption {
+    color: var(--thip-muted) !important;
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+}
+
+.section-title {
+    color: var(--thip-ink) !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: var(--thip-white) !important;
+    border-right: 1px solid var(--thip-border) !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"],
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] label p,
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] {
+    color: var(--thip-ink) !important;
+    opacity: 1 !important;
+}
+
+.brand {
+    color: var(--thip-ink) !important;
+    font-size: 26px !important;
+    font-weight: 750 !important;
+}
+
+.brand-caption {
+    color: var(--thip-muted) !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1.4px !important;
+}
+
+/* Sidebar radio navigation */
+[data-testid="stSidebar"] [role="radiogroup"] label {
+    color: var(--thip-ink) !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stSidebar"] [role="radiogroup"] label p {
+    color: var(--thip-ink) !important;
+}
+
+/* Dropdowns and multiselects */
+[data-testid="stSidebar"] [data-baseweb="select"]>div,
+[data-baseweb="select"]>div {
+    background-color: #ffffff !important;
+    border-color: #cbd5e1 !important;
+    border-radius: 7px !important;
+}
+
+[data-baseweb="select"] input,
+[data-baseweb="select"] input::placeholder,
+[data-baseweb="select"] [role="combobox"],
+[data-baseweb="select"] span {
+    color: var(--thip-ink) !important;
+    -webkit-text-fill-color: var(--thip-ink) !important;
+    opacity: 1 !important;
+}
+
+[data-baseweb="select"] svg {
+    fill: var(--thip-muted) !important;
+    color: var(--thip-muted) !important;
+}
+
+[data-baseweb="popover"],
+[data-baseweb="menu"],
+[data-baseweb="popover"] ul {
+    background: #ffffff !important;
+}
+
+[data-baseweb="menu"] li,
+[data-baseweb="menu"] li div,
+[data-baseweb="menu"] li span {
+    color: var(--thip-ink) !important;
+}
+
+[data-baseweb="menu"] li:hover {
+    background: #edf2fa !important;
+}
+
+/* Selected multiselect tags */
+[data-baseweb="tag"] {
+    background: #e7eefb !important;
+    border: 1px solid #c4d4f1 !important;
+}
+
+[data-baseweb="tag"] span {
+    color: #24477f !important;
+    -webkit-text-fill-color: #24477f !important;
+}
+
+[data-baseweb="tag"] svg {
+    fill: #24477f !important;
+}
+
+/* KPI cards */
+[data-testid="stMetric"] {
+    background: #ffffff !important;
+    border: 1px solid var(--thip-border) !important;
+    border-radius: 9px !important;
+    padding: 17px 18px !important;
+    box-shadow: none !important;
+    min-width: 0 !important;
+}
+
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] p {
+    color: var(--thip-muted) !important;
+    opacity: 1 !important;
+    font-size: 13px !important;
+}
+
+[data-testid="stMetricValue"],
+[data-testid="stMetricValue"] div {
+    color: var(--thip-ink) !important;
+    -webkit-text-fill-color: var(--thip-ink) !important;
+    font-size: clamp(21px, 2vw, 30px) !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stMetricDelta"] {
+    opacity: 1 !important;
+}
+
+/* Plotly chart containers */
+[data-testid="stPlotlyChart"] {
+    background: #ffffff !important;
+    border: 1px solid var(--thip-border) !important;
+    border-radius: 9px !important;
+    overflow: hidden !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+}
+
+[data-testid="stPlotlyChart"]>div {
+    max-width: 100% !important;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--thip-border) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    background: #ffffff !important;
+}
+
+/* Buttons */
+.stButton>button,
+.stDownloadButton>button {
+    border-radius: 7px !important;
+    border: 1px solid #cbd5e1 !important;
+    color: var(--thip-ink) !important;
+    background: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.stButton>button:hover,
+.stDownloadButton>button:hover {
+    border-color: var(--thip-blue) !important;
+    color: var(--thip-blue) !important;
+    background: #f0f5ff !important;
+}
+
+/* Filter reset and status */
+.status-note {
+    color: var(--thip-muted) !important;
+    border-top: 1px solid var(--thip-border);
+    padding-top: 14px;
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+[data-testid="stCaptionContainer"] p {
+    color: var(--thip-subtle) !important;
+}
+
+/* Prevent columns and charts from forcing horizontal overflow */
+[data-testid="stHorizontalBlock"] {
+    gap: 16px !important;
+    min-width: 0 !important;
+}
+
+[data-testid="stHorizontalBlock"]>[data-testid="column"] {
+    min-width: 0 !important;
+}
+
+@media (max-width: 900px) {
+    [data-testid="stMain"] .block-container {
+        padding: 1.25rem 1rem !important;
+    }
+
+    [data-testid="stHorizontalBlock"] {
+        flex-wrap: wrap !important;
+    }
+
+    [data-testid="stHorizontalBlock"]>[data-testid="column"] {
+        min-width: 100% !important;
+        flex: 1 1 100% !important;
+    }
+}

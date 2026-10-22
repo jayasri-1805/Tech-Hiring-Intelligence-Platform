@@ -1,0 +1,12 @@
+{
+    "average_salary": 110864.89,
+    "median_salary": 107565.25,
+    "maximum_salary": 180000,
+    "minimum_salary": 50000,
+    "total_jobs": 50000,
+    "remote_jobs": 16478,
+    "remote_percentage": 32.96,
+    "small_companies": 16667,
+    "medium_companies": 16679,
+    "large_companies": 16654
+}

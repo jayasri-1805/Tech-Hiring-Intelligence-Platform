@@ -1,0 +1,7 @@
+FromTable,FromColumn,ToTable,ToColumn
+dim_company,company_id,fact_jobs,company_id
+dim_location,location_id,fact_jobs,location_id
+dim_date,date_id,fact_jobs,date_id
+dim_experience,experience_id,fact_jobs,experience_id
+dim_remote,remote_id,fact_jobs,remote_id
+dim_salary,salary_id,fact_jobs,salary_id

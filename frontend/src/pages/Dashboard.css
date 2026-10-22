@@ -1,0 +1,91 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #5B5FEF, #7C3AED);
+}
+
+.heroBanner h1 {
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.heroBanner p {
+    color: #E5E7EB;
+}
+
+.heroButton {
+    background: white;
+    color: #5B5FEF;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.kpiCard {
+    background: #161B2E;
+    padding: 25px;
+    border-radius: 22px;
+    transition: .3s;
+    border: 1px solid rgba(255, 255, 255, .08);
+}
+
+.kpiCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .35);
+}
+
+.iconBox {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.kpiCard h3 {
+    color: #94A3B8;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.kpiCard h2 {
+    font-size: 32px;
+}
+
+.placeholderGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+}
+
+.chartPlaceholder {
+    height: 340px;
+    background: #161B2E;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #94A3B8;
+    border: 1px solid rgba(255, 255, 255, .08);
+}

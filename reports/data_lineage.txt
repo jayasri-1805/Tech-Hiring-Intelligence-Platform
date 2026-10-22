@@ -1,0 +1,15 @@
+Raw Dataset
+   |
+Validation
+   |
+Profiling
+   |
+Cleaning
+   |
+Feature Engineering
+   |
+KPI Engine
+   |
+Analytics Metadata
+   |
+Warehouse Export

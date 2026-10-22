@@ -1,0 +1,5 @@
+Primary: #1F77B4
+Secondary: #2CA02C
+Accent: #FF7F0E
+Background: #F8F9FA
+Text: #212529

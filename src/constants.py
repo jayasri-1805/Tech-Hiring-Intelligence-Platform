@@ -1,0 +1,3 @@
+PROJECT_NAME="Tech Hiring Intelligence Platform"
+PROJECT_VERSION="1.0"
+REPORT_WIDTH=80

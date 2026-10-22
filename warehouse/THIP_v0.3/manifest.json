@@ -1,0 +1,6 @@
+{
+    "dataset_path": "warehouse\\THIP_v0.3\\analytics_dataset.csv",
+    "rows": 50000,
+    "columns": 26,
+    "version": "THIP_v0.3"
+}

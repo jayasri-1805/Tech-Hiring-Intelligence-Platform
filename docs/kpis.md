@@ -1,0 +1,11 @@
+KPIs:
+- average_salary
+- median_salary
+- maximum_salary
+- minimum_salary
+- total_jobs
+- remote_jobs
+- remote_percentage
+- small_companies
+- medium_companies
+- large_companies

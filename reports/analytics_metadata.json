@@ -1,0 +1,9 @@
+{
+    "generated_at": "2026-10-19T00:20:21",
+    "rows": 50000,
+    "columns": 26,
+    "version": "THIP_v0.2",
+    "numeric_columns": 9,
+    "categorical_columns": 17,
+    "missing_values": 0
+}

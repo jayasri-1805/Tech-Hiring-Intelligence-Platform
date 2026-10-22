@@ -1,0 +1,14 @@
+
+                 dim_date
+                    |
+                    |
+dim_company --- fact_jobs --- dim_location
+                    |
+                    |
+             dim_experience
+                    |
+                    |
+               dim_remote
+                    |
+                    |
+               dim_salary
